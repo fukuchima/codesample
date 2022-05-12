@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Wijmoのスタイルとコア（必須） -->
+    <link href="https://cdn.grapecity.com/wijmo/5.latest/styles/wijmo.min.css" rel="stylesheet" />
+    <!-- 
+    必要に応じて、wijmo.min.cssの代わりにカスタムテーマを使用する
+    <link href="https://cdn.grapecity.com/wijmo/5.latest/styles/themes/wijmo.theme.modern.min.css" rel="stylesheet"/>
+    -->
+    <script src="https://cdn.grapecity.com/wijmo/5.latest/controls/wijmo.min.js"></script>
+
+    <!-- Wijmoコントロール（オプション。必要なコントロールを含める） -->
+    <script src="https://cdn.grapecity.com/wijmo/5.latest/controls/wijmo.input.min.js" type="text/javascript"></script>
+    <script src="https://cdn.grapecity.com/wijmo/5.latest/controls/wijmo.grid.min.js" type="text/javascript"></script>
+    <script src="https://cdn.grapecity.com/wijmo/5.latest/controls/wijmo.chart.min.js" type="text/javascript"></script>
+    <script src="https://cdn.grapecity.com/wijmo/5.latest/controls/wijmo.gauge.min.js" type="text/javascript"></script>
+
+    <!-- Wijmoカスタムカルチャー（オプション。必要なカルチャーを含める） -->
+    <script src="https://cdn.grapecity.com/wijmo/5.latest/controls/cultures/wijmo.culture.ja.min.js"></script>
+
+
+    <!-- Wijmoライセンスキーの適用（オプション） 
+    <script>
+        wijmo.setLicenseKey('ここにライセンスキーの文字列を設定します');
+    </script>
+    -->
+    <link href="./index.css" rel="stylesheet" />
+    <script src="./index.js"></script>
+    <script src="./data.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <ul id="product_list"></ul>
+        <div id="flexGrid"></div>
+    </div>
+</body>
+
+</html>

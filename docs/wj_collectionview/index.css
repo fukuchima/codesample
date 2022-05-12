@@ -1,0 +1,9 @@
+body {
+    margin: 50px 20px;
+    /* 「BIZ UDPゴシック」をWindowsで指定 */
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", Meiryo, sans-serif;
+}
+#flexGrid {
+    margin: 20px;
+    width: 90vw;
+}
